@@ -18,7 +18,7 @@ public class Cuboid extends SpaceShape implements VolumeMeasurable, AreaMeasurab
 
     @Override
     public double getArea() {
-        area = 2 * (weight * depth + weight * height + depth * height);
+        area = 6*weight*weight;
         return area;
     }
 

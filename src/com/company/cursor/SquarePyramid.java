@@ -16,7 +16,7 @@ public class SquarePyramid extends SpaceShape {
 
     @Override
     public double getArea() {
-        area = 2 * baseHeight * baseWidth + baseWidth * baseWidth;
+        area = (0.5 * Math.sqrt(baseHeight * baseHeight + (baseWidth / 2) * baseWidth / 2) * 4 * baseWidth) + baseWidth * baseWidth;
         return area;
     }
 
